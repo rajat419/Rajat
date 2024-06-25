@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+struct structure{
+  
+int x;
+  int y;
+
+};
+
+main()
+{
+
+struct structure s;
+
+s.x=10;
+
+s.y=20;
+
+printf("x value:%d\n",s.x);
+
+printf("y value:%d\n",s.y);
+
+}
